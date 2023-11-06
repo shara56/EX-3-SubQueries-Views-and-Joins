@@ -1,4 +1,7 @@
 # EX 3 SubQueries, Views and Joins 
+## DATE:18/08/2023
+## AIM: To execute SubQueries, Views and Joins using SQL.
+## PROGRAM:
 ## Create employee Table
 ```sql
 CREATE TABLE EMP (EMPNO NUMBER(4) PRIMARY KEY,ENAME VARCHAR2(10),JOB VARCHAR2(9),MGR NUMBER(4),HIREDATE DATE,SAL NUMBER(7,2),COMM NUMBER(7,2),DEPTNO NUMBER(2));
@@ -172,5 +175,7 @@ SELECT * FROM salesman1 RIGHT JOIN customer1 ON salesman1.salesman_id=customer1.
 ### OUTPUT FOR RIGHT JOIN:
 ![image](https://github.com/harinidq/EX-3-SubQueries-Views-and-Joins/assets/113497680/ec396f10-8bb4-45bc-9cf1-3c9212804399)
 
+## RESULT:
+The program has been executed successfully for the above queries.
 
 
